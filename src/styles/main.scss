@@ -1,0 +1,64 @@
+.app {
+    position: relative;
+    .div {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .todos {
+        .todo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div {
+                display: flex;
+                flex-direction: column;
+                button {
+                    margin: 5px;
+                    border-radius: 4px;
+                    border: 0px;
+                    padding: 8px 15px;
+                    background: rgb(248, 0, 83);
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 12px;
+                    &.edit {
+                        background: rgb(5, 9, 240);
+                    }
+                }
+            }
+        }
+    }
+    .add {
+        margin: auto;
+        max-width: 300px;
+        position: relative;
+        button {
+            width: 100%;
+            border-radius: 5px;
+            border: 0xp;
+            background: rgb(36, 20, 255);
+            padding: 10px 20px;
+            color: #fff;
+            border: 0px;
+        }
+    }
+}
+
+input {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    margin: 5px 0;
+    &:focus {
+        border: 1px solid rgb(0, 255, 221);
+    }
+}
+button {
+    cursor: pointer;
+}
