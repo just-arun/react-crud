@@ -7,7 +7,7 @@ import { Add } from './components/add';
 function App() {
   let [items, setItems] = useState([{
       id: "idGen",
-      name: 'lame',
+      name: 'len',
       age: 3
   }]);
   let [item, setItem] = useState({
